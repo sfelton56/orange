@@ -56,7 +56,7 @@
   z-index: 1;
   padding-top: 100px;
   left: 0;
-  top: 0;
+  top: 10px;
   width: 100%;
   height: 100%;
   overflow: auto;
@@ -144,9 +144,7 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-</style>
-</head>
-  
+</style></head>
 <body>
 
 <div class="header" id="myHeader">
@@ -158,51 +156,49 @@ img.hover-shadow {
 </div>
   
 <div class="row">
-  <div class="column">
-    <img src="https://cdn.discordapp.com/attachments/695070278539018332/720061389036584960/IMG_1352.JPG" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://cdn.discordapp.com/attachments/695070278539018332/711313072526065714/IMG_1332.JPG" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://cdn.discordapp.com/attachments/695070278539018332/711313137638309938/IMG_1344.JPG" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://cdn.discordapp.com/attachments/695070278539018332/711313119745540096/IMG_1340.JPG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-  </div>
+<div class="column">
+<img src="https://cdn.discordapp.com/attachments/695070278539018332/720061389036584960/IMG_1352.JPG" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div>
+<div class="column">
+<img src="https://cdn.discordapp.com/attachments/695070278539018332/711313072526065714/IMG_1332.JPG" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+</div>
+<div class="column">
+<img src="https://cdn.discordapp.com/attachments/695070278539018332/711313137638309938/IMG_1344.JPG" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+</div>
+<div class="column">
+<img src="https://cdn.discordapp.com/attachments/695070278539018332/711313119745540096/IMG_1340.JPG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+</div>
 </div>
 
 <div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
 
-    <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
-      <img src="https://cdn.discordapp.com/attachments/695070278539018332/720061389036584960/IMG_1352.JPG" style="width:100%">
-    </div>
+<div class="mySlides">
+<div class="numbertext">1 / 4</div>
+<img src="https://cdn.discordapp.com/attachments/695070278539018332/720061389036584960/IMG_1352.JPG" style="width:100%">
+</div>
 
-    <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
-      <img src="https://cdn.discordapp.com/attachments/695070278539018332/711313072526065714/IMG_1332.JPG" style="width:100%">
-    </div>
+<div class="mySlides">
+<div class="numbertext">2 / 4</div>
+<img src="https://cdn.discordapp.com/attachments/695070278539018332/711313072526065714/IMG_1332.JPG" style="width:100%">
+</div>
 
-    <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
-      <img src="https://cdn.discordapp.com/attachments/695070278539018332/711313137638309938/IMG_1344.JPG" style="width:100%">
-    </div>
+<div class="mySlides">
+<div class="numbertext">3 / 4</div>
+<img src="https://cdn.discordapp.com/attachments/695070278539018332/711313137638309938/IMG_1344.JPG" style="width:100%">
+</div>
     
-    <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
-      <img src="https://cdn.discordapp.com/attachments/695070278539018332/711313119745540096/IMG_1340.JPG" style="width:100%">
-    </div>
-    
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+<div class="mySlides">
+<div class="numbertext">4 / 4</div>
+<img src="https://cdn.discordapp.com/attachments/695070278539018332/711313119745540096/IMG_1340.JPG" style="width:100%">
+</div>
+   
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-
+<div class="caption-container">
+<p id="caption"></p></div>
 
 <div class="column">
  <img class="demo cursor" src="https://cdn.discordapp.com/attachments/695070278539018332/720061389036584960/IMG_1352.JPG" style="width:100%" onclick="currentSlide(1)" alt="Towers Volleyball Court"></div>
@@ -212,29 +208,23 @@ img.hover-shadow {
  <img class="demo cursor" src="https://cdn.discordapp.com/attachments/695070278539018332/711313137638309938/IMG_1344.JPG" style="width:100%" onclick="currentSlide(3)" alt="Ivy on the side of Smith Hall"></div>
 <div class="column">
  <img class="demo cursor" src="https://cdn.discordapp.com/attachments/695070278539018332/711313119745540096/IMG_1340.JPG" style="width:100%" onclick="currentSlide(4)" alt="Sloan Hall"></div>
-</div>
-</div>
+</div></div>
 
 <script>
 function openModal() {
   document.getElementById("myModal").style.display = "block";
 }
-
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
 }
-
 var slideIndex = 1;
 showSlides(slideIndex);
-
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -252,11 +242,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
-</script>     
-      
-      
-      
-      
+</script>        
       
 </body>
 </html>
